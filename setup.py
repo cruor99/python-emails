@@ -125,7 +125,7 @@ settings.update(
               'emails.packages.dkim'
              ],
     scripts=['scripts/make_rfc822.py'],
-    install_requires=['cssutils', 'chardet', 'python-dateutil', 'requests', 'premailer'],
+    install_requires=['cssutils', 'chardet', 'python-dateutil', 'requests'],
     license=open('LICENSE').read(),
     #test_suite = "emails.testsuite.test_all",
     zip_safe=False,
